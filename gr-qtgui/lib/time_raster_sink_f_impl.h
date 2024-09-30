@@ -87,15 +87,15 @@ public:
     void* pyqwidget();
 #endif
 
-    void set_update_time(double t);
-    void set_title(const std::string& title);
-    void set_line_label(unsigned int which, const std::string& label);
-    void set_line_color(unsigned int which, const std::string& color);
-    void set_line_width(unsigned int which, int width);
-    void set_line_style(unsigned int which, Qt::PenStyle style);
-    void set_line_marker(unsigned int which, QwtSymbol::Style marker);
-    void set_line_alpha(unsigned int which, double alpha);
-    void set_color_map(unsigned int which, const int color);
+    void set_update_time(double t) override;
+    void set_title(const std::string& title) override;
+    void set_line_label(unsigned int which, const std::string& label) override;
+    void set_line_width(unsigned int which, int width) override;
+    void set_line_color(unsigned int which, const std::string& color) override;
+    void set_line_style(unsigned int which, Qt::PenStyle style) override;
+    void set_line_alpha(unsigned int which, double alpha) override;
+    void set_line_marker(unsigned int which, QwtSymbol::Style marker) override;
+    void set_color_map(unsigned int which, const int color) override;
 
     std::string title();
     std::string line_label(unsigned int which);

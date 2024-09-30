@@ -25,9 +25,9 @@
 #endif
 
 #include "vmcircbuf_mmap_tmpfile.h"
-#include <assert.h>
-#include <stdlib.h>
 #include <unistd.h>
+#include <cassert>
+#include <cstdlib>
 #include <stdexcept>
 #ifdef HAVE_SYS_TYPES_H
 #include <sys/types.h>
@@ -37,10 +37,9 @@
 #endif
 #include "pagesize.h"
 #include <gnuradio/sys_paths.h>
-#include <errno.h>
 #include <fcntl.h>
-#include <stdio.h>
-#include <string.h>
+#include <cstdio>
+#include <cstring>
 
 namespace gr {
 

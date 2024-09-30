@@ -25,8 +25,8 @@
 #endif
 
 #include "local_sighandler.h"
-#include <stdio.h>
-#include <string.h>
+#include <cstdio>
+#include <cstring>
 #include <stdexcept>
 
 namespace gr {

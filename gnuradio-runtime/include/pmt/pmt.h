@@ -24,11 +24,11 @@
 #define INCLUDED_PMT_H
 
 #include <pmt/api.h>
-#include <stdint.h>
 #include <boost/any.hpp>
 #include <boost/noncopyable.hpp>
 #include <boost/shared_ptr.hpp>
 #include <complex>
+#include <cstdint>
 #include <iosfwd>
 #include <stdexcept>
 #include <string>

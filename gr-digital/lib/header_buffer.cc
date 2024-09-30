@@ -24,9 +24,9 @@
 #endif
 
 #include <gnuradio/digital/header_buffer.h>
-#include <string.h>
 #include <volk/volk.h>
 #include <algorithm>
+#include <cstring>
 #include <stdexcept>
 
 namespace gr {

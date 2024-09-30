@@ -32,8 +32,8 @@
 #include <qwt_symbol.h>
 #include <volk/volk.h>
 
-#include <string.h>
 #include <cmath>
+#include <cstring>
 
 #ifdef _MSC_VER
 #define isfinite _finite

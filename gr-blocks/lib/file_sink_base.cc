@@ -27,7 +27,6 @@
 #include <gnuradio/blocks/file_sink_base.h>
 #include <gnuradio/thread/thread.h>
 #include <fcntl.h>
-#include <stdio.h>
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <cstdio>

@@ -28,9 +28,9 @@
 #include <gnuradio/blocks/count_bits.h>
 #include <gnuradio/digital/simple_framer_sync.h>
 #include <gnuradio/io_signature.h>
-#include <assert.h>
-#include <string.h>
+#include <cassert>
 #include <cstdio>
+#include <cstring>
 #include <stdexcept>
 
 namespace gr {

@@ -24,8 +24,8 @@
 #endif
 
 #include <pmt/pmt_pool.h>
-#include <stdint.h>
 #include <algorithm>
+#include <cstdint>
 
 namespace pmt {
 

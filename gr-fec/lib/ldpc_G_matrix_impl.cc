@@ -22,7 +22,7 @@
 #endif
 
 #include "ldpc_G_matrix_impl.h"
-#include <math.h>
+#include <cmath>
 #include <fstream>
 #include <iostream>
 #include <sstream>

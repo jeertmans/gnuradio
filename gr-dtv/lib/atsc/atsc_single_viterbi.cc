@@ -21,7 +21,7 @@
  */
 
 #include "atsc_single_viterbi.h"
-#include <math.h>
+#include <cmath>
 
 namespace gr {
 namespace dtv {

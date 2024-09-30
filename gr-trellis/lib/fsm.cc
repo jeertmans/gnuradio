@@ -22,9 +22,9 @@
 
 #include <gnuradio/trellis/base.h>
 #include <gnuradio/trellis/fsm.h>
-#include <stdlib.h>
 #include <cmath>
 #include <cstdio>
+#include <cstdlib>
 #include <fstream>
 #include <iostream>
 #include <stdexcept>

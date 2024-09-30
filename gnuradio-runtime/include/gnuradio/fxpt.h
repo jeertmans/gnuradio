@@ -25,7 +25,7 @@
 
 #include <gnuradio/api.h>
 #include <gnuradio/types.h>
-#include <stdint.h>
+#include <cstdint>
 
 namespace gr {
 

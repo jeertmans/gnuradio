@@ -21,7 +21,7 @@
  */
 
 #include <gnuradio/trellis/calc_metric.h>
-#include <float.h>
+#include <cfloat>
 #include <stdexcept>
 
 namespace gr {

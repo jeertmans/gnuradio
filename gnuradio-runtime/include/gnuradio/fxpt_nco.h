@@ -26,7 +26,7 @@
 #include <gnuradio/api.h>
 #include <gnuradio/fxpt.h>
 #include <gnuradio/gr_complex.h>
-#include <stdint.h>
+#include <cstdint>
 
 namespace gr {
 

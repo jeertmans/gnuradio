@@ -26,7 +26,7 @@
 
 #include "annotator_1to1_impl.h"
 #include <gnuradio/io_signature.h>
-#include <string.h>
+#include <cstring>
 #include <iomanip>
 #include <iostream>
 

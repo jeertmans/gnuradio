@@ -26,8 +26,8 @@
 #include "vmcircbuf.h"
 #include <gnuradio/buffer.h>
 #include <gnuradio/math.h>
-#include <assert.h>
 #include <algorithm>
+#include <cassert>
 #include <iostream>
 #include <stdexcept>
 

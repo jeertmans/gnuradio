@@ -24,7 +24,7 @@
 #define CONSTELLATION_DISPLAY_PLOT_H
 
 #include <gnuradio/qtgui/DisplayPlot.h>
-#include <stdint.h>
+#include <cstdint>
 #include <cstdio>
 #include <vector>
 

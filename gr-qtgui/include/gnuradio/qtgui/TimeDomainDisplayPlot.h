@@ -25,7 +25,7 @@
 
 #include <gnuradio/qtgui/DisplayPlot.h>
 #include <gnuradio/tags.h>
-#include <stdint.h>
+#include <cstdint>
 #include <cstdio>
 #include <vector>
 

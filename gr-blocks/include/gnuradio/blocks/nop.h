@@ -25,7 +25,7 @@
 
 #include <gnuradio/block.h>
 #include <gnuradio/blocks/api.h>
-#include <stddef.h> // size_t
+#include <cstddef> // size_t
 
 namespace gr {
 namespace blocks {

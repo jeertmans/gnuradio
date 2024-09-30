@@ -25,7 +25,7 @@
 
 #include <gnuradio/digital/header_buffer.h>
 #include <gnuradio/digital/header_format_crc.h>
-#include <string.h>
+#include <cstring>
 #include <volk/volk.h>
 
 namespace gr {

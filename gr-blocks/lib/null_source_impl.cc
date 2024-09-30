@@ -26,7 +26,7 @@
 
 #include "null_source_impl.h"
 #include <gnuradio/io_signature.h>
-#include <string.h>
+#include <cstring>
 
 namespace gr {
 namespace blocks {

@@ -26,7 +26,7 @@
 
 #include "peak_detector2_fb_impl.h"
 #include <gnuradio/io_signature.h>
-#include <string.h>
+#include <cstring>
 #include <limits>
 
 namespace gr {

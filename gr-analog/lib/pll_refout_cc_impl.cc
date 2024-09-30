@@ -28,7 +28,7 @@
 #include <gnuradio/io_signature.h>
 #include <gnuradio/math.h>
 #include <gnuradio/sincos.h>
-#include <math.h>
+#include <cmath>
 
 namespace gr {
 namespace analog {

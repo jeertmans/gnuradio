@@ -25,9 +25,9 @@
 #endif
 
 #include "vmcircbuf_mmap_shm_open.h"
-#include <assert.h>
 #include <fcntl.h>
 #include <unistd.h>
+#include <cassert>
 #include <stdexcept>
 #ifdef HAVE_SYS_TYPES_H
 #include <sys/types.h>
@@ -37,8 +37,8 @@
 #endif
 #include "pagesize.h"
 #include <gnuradio/sys_paths.h>
-#include <errno.h>
-#include <stdio.h>
+#include <cerrno>
+#include <cstdio>
 
 namespace gr {
 

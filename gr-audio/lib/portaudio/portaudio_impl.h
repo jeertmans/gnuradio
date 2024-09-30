@@ -24,7 +24,7 @@
 #define INCLUDED_AUDIO_PORTAUDIO_IMPL_H
 
 #include <portaudio.h>
-#include <stdio.h>
+#include <cstdio>
 
 namespace gr {
 namespace audio {

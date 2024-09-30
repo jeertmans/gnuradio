@@ -30,9 +30,9 @@
 #include <gnuradio/prefs.h>
 #include <gnuradio/top_block.h>
 
-#include <stdlib.h>
-#include <string.h>
 #include <unistd.h>
+#include <cstdlib>
+#include <cstring>
 #include <iostream>
 #include <stdexcept>
 

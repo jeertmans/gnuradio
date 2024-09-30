@@ -26,7 +26,7 @@
 
 #include "test.h"
 #include <gnuradio/io_signature.h>
-#include <string.h>
+#include <cstring>
 #include <iostream>
 #include <stdexcept>
 

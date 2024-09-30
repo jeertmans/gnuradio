@@ -26,7 +26,7 @@
 
 #include "protocol_formatter_async_impl.h"
 #include <gnuradio/io_signature.h>
-#include <stdio.h>
+#include <cstdio>
 #include <volk/volk.h>
 
 namespace gr {

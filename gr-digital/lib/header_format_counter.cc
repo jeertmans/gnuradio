@@ -26,7 +26,7 @@
 #include <gnuradio/digital/header_buffer.h>
 #include <gnuradio/digital/header_format_counter.h>
 #include <gnuradio/math.h>
-#include <string.h>
+#include <cstring>
 #include <volk/volk.h>
 #include <iomanip>
 #include <iostream>

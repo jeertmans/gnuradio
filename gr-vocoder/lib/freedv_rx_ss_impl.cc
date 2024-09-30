@@ -27,7 +27,7 @@
 #include "freedv_rx_ss_impl.h"
 
 #include <gnuradio/io_signature.h>
-#include <assert.h>
+#include <cassert>
 #include <stdexcept>
 
 extern "C" {
